@@ -45,7 +45,7 @@ class HumanBMI {
     }
 
     public static String getResult() {
-        String string = "";
+        String string = "Problem";
         if (bmi >= 18.5 && bmi < 25) {
             string = "Norm";
         }
